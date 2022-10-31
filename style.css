@@ -32,7 +32,7 @@ body {
 	flex-grow: 1;
 }
 
-.task-row-wrapp {
+.adding__input {
 	display: flex;
 }
 
@@ -144,7 +144,7 @@ li>input[type="text"] {
 }
 
 /* Completed */
-#complet-tasks label {
+.completed-tasks__elem label {
 	text-decoration: line-through;
 	color: #888;
 }
@@ -154,12 +154,12 @@ ul li input[type=text] {
 	display: none;
 }
 
-.edit-mode input[type=text] {
+.incompleted-tasks__elem_edit input[type=text] {
 	display: inline-block;
 	width: 224px;
 }
 
-.edit-mode label {
+.incompleted-tasks__elem_edit label {
 	display: none;
 }
 
