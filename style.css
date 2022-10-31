@@ -20,12 +20,6 @@ body {
 	font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-	.header {
-		text-align: center;
-	}
-}
-
 .main-elems {
 	display: block;
 	width: 500px;
@@ -167,4 +161,12 @@ ul li input[type=text] {
 
 .edit-mode label {
 	display: none;
+}
+
+@media (max-width:768px) {
+
+	.header {
+		text-align: center;
+	}
+
 }
